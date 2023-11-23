@@ -1,0 +1,14 @@
+mat-tab-group {
+    width: 100%;
+    height: 100%;
+  }
+
+  .aba_posto{
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
