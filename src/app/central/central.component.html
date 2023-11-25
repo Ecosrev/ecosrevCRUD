@@ -1,0 +1,78 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <base href="/">
+  </head>
+    <header>
+      <nav id="RNavBar">
+        <div id="DivLeft">
+          <a routerLink="/home"><img src="assets/logo.png" alt="logo do site" id="ImgLogo"></a> <!--    Link para a página inicial  -->
+          <ul class="dropdown-menu text-small"></ul>
+      </div> 
+         <div id="DivRight">
+            <img src="assets/Ellipse 4.png" alt="foto de perfil do usuário" id="ImgUser">
+            <a class="LogOff" routerLink="/home"><ul>Sair</ul></a>
+        </div>
+    </nav>
+    </header>
+    <div class="centraliza">
+  <div class="container">
+      <div class="nav">
+        <ul>
+          <li><a routerLink="/central"><i class="fa-solid fa-calendar-days"></i>  Central</a></li>
+          <li><a routerLink="/clientes"><i class="fa-solid fa-user"></i>  Cliente</a></li>
+          <li><a routerLink="/beneficios"><i class="fa-solid fa-cart-shopping"></i>  Benefícios</a></li>
+          <li><a routerLink="/posto"><i class="fa-solid fa-location-dot"></i>  Posto de Coleta</a></li>
+          <li><a routerLink="/clientes"><i class="fa-solid fa-gear"></i>  Administrador</a></li>
+        </ul>
+      </div>
+      <table class="table table-hover">
+        <thead>
+          <h1><b>ADICIONADOS RECENTEMENTE</b></h1>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Pontuação</th>
+            <th scope="col">Cliente</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Notebook</td>
+            <td>200</td>
+            <td>Maria Gabriele Carvalho Santos</td>
+          </tr>
+          <tr>
+            <td>Smartphone</td>
+            <td>100</td>
+            <td>Mariana Aiko Kakimoto Hirata</td>
+          </tr>
+          <tr>
+            <td>Pilha</td>
+            <td>50</td>
+            <td>Mateus Ferreira Rosa</td>
+          </tr>
+          <tr>
+            <td>Bateria</td>
+            <td>50</td>
+            <td>Gabriel Yamaoka</td>
+          </tr>
+          </tbody>
+        </table>
+  </div>
+</div>
+      <div id="rodape">
+        <footer>
+            <div>
+                <span id="copy">© 2023 Ecosrev</span>
+                <div id="icons">
+                    <a href=""><i class="fa-brands fa-instagram foo" style="color: rgba(87, 87, 87, 0.7);"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f foo" style="color: rgba(87, 87, 87, 0.7);"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter foo" style="color: rgba(87, 87, 87, 0.7);"></i></a>
+                    <a href=""><i class="fa-brands fa-github foo" style="color: rgba(87, 87, 87, 0.7);"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>

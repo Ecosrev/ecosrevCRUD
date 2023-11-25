@@ -8,21 +8,21 @@
   <header>
     <nav id="RNavBar">
       <div id="DivLeft">
-        <a href="/home/index.html"><img src="assets/logo.png" alt="logo do site" id="ImgLogo"></a> <!--    Link para a página inicial  -->
+        <a routerLink="/home"><img src="assets/logo.png" alt="logo do site" id="ImgLogo"></a> <!--    Link para a página inicial  -->
         <ul class="dropdown-menu text-small"></ul>
     </div> 
        <div id="DivRight">
           <img src="assets/Ellipse 4.png" alt="foto de perfil do usuário" id="ImgUser">
-          <a class="LogOff" href="/home/index.html"><ul>Sair</ul></a>
+          <a class="LogOff" routerLink="/home"><ul>Sair</ul></a>
       </div>
   </nav>
   </header>
 <div class="container">
     <div class="nav">
       <ul>
-        <li><a routerLink="/"><i class="fa-solid fa-calendar-days"></i>  Central</a></li>
+        <li><a routerLink="/central"><i class="fa-solid fa-calendar-days"></i>  Central</a></li>
         <li><a routerLink="/clientes"><i class="fa-solid fa-user"></i>  Cliente</a></li>
-        <li><a routerLink="/"><i class="fa-solid fa-cart-shopping"></i>  Benefícios</a></li>
+        <li><a routerLink="/beneficios"><i class="fa-solid fa-cart-shopping"></i>  Benefícios</a></li>
         <li><a routerLink="/posto"><i class="fa-solid fa-location-dot"></i>  Posto de Coleta</a></li>
         <li><a routerLink="/clientes"><i class="fa-solid fa-gear"></i>  Administrador</a></li>
       </ul>
@@ -55,5 +55,21 @@
           </td>
         </tbody>
       </table>
-      <button routerLink="/clientes/novo" class="btn"> Novo Cadastro</button>
+      <div id="botao">
+        <button routerLink="/clientes/novo" class="btn"> Novo Cadastro</button>
+      </div>
     </div>
+  </div>
+  <div id="rodape">
+    <footer>
+        <div>
+            <span id="copy">© 2023 Ecosrev</span>
+            <div id="icons">
+                <a href=""><i class="fa-brands fa-instagram foo" style="color: rgba(87, 87, 87, 0.7);"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f foo" style="color: rgba(87, 87, 87, 0.7);"></i></a>
+                <a href=""><i class="fa-brands fa-twitter foo" style="color: rgba(87, 87, 87, 0.7);"></i></a>
+                <a href=""><i class="fa-brands fa-github foo" style="color: rgba(87, 87, 87, 0.7);"></i></a>
+            </div>
+        </div>
+    </footer>
+</div>

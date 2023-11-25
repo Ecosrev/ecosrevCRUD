@@ -15,6 +15,9 @@ import { AbasClienteComponent } from './abas-cliente/abas-cliente.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BeneficiosListComponent } from './beneficios/beneficios-list/beneficios-list.component';
+import { BeneficiosFormComponent } from './beneficios/beneficios-form/beneficios-form.component';
+import { CentralComponent } from './central/central.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { HttpClientModule } from '@angular/common/http';
     AbasClienteComponent,
     HomeComponent,
     LoginComponent,
+    BeneficiosListComponent,
+    BeneficiosFormComponent,
+    CentralComponent,
   ],
   imports: [
     BrowserModule,

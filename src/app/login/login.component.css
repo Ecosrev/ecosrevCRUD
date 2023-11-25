@@ -53,6 +53,7 @@ input{
 /* Formatando o texto das âncoras */
 a{
     color: black;
+    text-decoration: none;
 }
 
 /* Definindo a disposição e estilização das elipses de fundo */
@@ -129,4 +130,13 @@ a{
     }
     .foo{
         margin-left: 10px;
+    }
+
+    #form2Example31{
+        width: 20px;
+        height: 20px;
+    }
+
+    #form2Example1{
+        width: 100%;
     }

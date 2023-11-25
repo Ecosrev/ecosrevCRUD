@@ -8,6 +8,9 @@ import { AbasComponent } from './abas/abas.component';
 import { AbasClienteComponent } from './abas-cliente/abas-cliente.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { BeneficiosFormComponent } from './beneficios/beneficios-form/beneficios-form.component';
+import { BeneficiosListComponent } from './beneficios/beneficios-list/beneficios-list.component';
+import { CentralComponent } from './central/central.component';
 
 const routes: Routes = [
   {path: 'clientes', component: ClienteListComponent},
@@ -20,7 +23,10 @@ const routes: Routes = [
   {path: 'abas-cliente', component: AbasClienteComponent},
   {path: 'home', component: HomeComponent},
   {path: 'login', component: LoginComponent},
-  {path: '', redirectTo: '/clientes', pathMatch: 'full'} //TAVA USANDO PRA TESTE, AQUI PROVAVELMENTE DEVE FICAR O HREF DO INDEX
+  {path: 'beneficios', component: BeneficiosListComponent},
+  {path: 'beneficios/novo', component: BeneficiosFormComponent},
+  {path: 'central', component: CentralComponent},
+  {path: '', redirectTo: '/home', pathMatch: 'full'} //TAVA USANDO PRA TESTE, AQUI PROVAVELMENTE DEVE FICAR O HREF DO INDEX
 
 ];
 

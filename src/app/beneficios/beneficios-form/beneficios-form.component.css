@@ -198,12 +198,11 @@ justify-content: center;
 
     .container {
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        margin: 20px;
+        margin: left auto;
+        margin: right auto ;
         overflow: hidden;
     }
     
@@ -298,23 +297,29 @@ form button{
 }
 .btn{
     box-shadow: 0px 2px rgb(139, 165, 58);
-        display: flex;
-        justify-content: center;
-        background-color: rgba(207, 197, 197, 0.7);
-        color: #296117;
-        font-weight: 700;
-        font-size: 15px;
-        width: 100px;
-        height: 35px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 10px;
-        border: none;
-        margin-left: auto;
-        align-items: center;
-        margin-top: 10px;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(207, 197, 197, 0.7);
+    color: #296117;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-left: auto;
+    align-items: center;
+    align-items: center;
 }
+
+#botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .btn:hover{
     color: #296117 ;
     background-color: rgba(207, 197, 197, 0.7);
@@ -322,7 +327,7 @@ form button{
 
 #cadastro-form{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: left;
     margin-top: 10px;
@@ -353,12 +358,6 @@ form button{
     
 }
 
-.centraliza{
+.rodape{
     display: flex;
-    justify-content: center;
-}
-#botao{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
