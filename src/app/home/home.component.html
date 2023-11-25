@@ -19,7 +19,7 @@
                 <a routerLink="/home"><img src="assets/logo.png" alt="Logo do site" id="ImgLogo"></a> <!--    Link para a página inicial    -->
                 <div id="divMenu">
                     <a routerLink="/home"><ul>Início</ul></a><!--Link para Início-->
-                    <a href="/sobre/sobre.html"><ul>Sobre</ul></a><!--Link para Sobre-->
+                    <a href="/sobre"><ul>Sobre</ul></a><!--Link para Sobre-->
                     <a routerLink="/login"><ul id="login">Login</ul></a><!--Link para Login-->
                 </div>
             </div> 
@@ -49,7 +49,7 @@
             placeholder="Digite o seu endereço" 
             aria-label="Username" 
             aria-describedby="addon-wrapping">
-            <button id="btnBuscar" onclick="window.location.href = '/home'"><b>Buscar</b></button>
+            <button id="btnBuscar" routerLink="/pesquisa"><b>Buscar</b></button>
     </div>
         <div id="rodape">
         <footer>

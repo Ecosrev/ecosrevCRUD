@@ -18,6 +18,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { BeneficiosListComponent } from './beneficios/beneficios-list/beneficios-list.component';
 import { BeneficiosFormComponent } from './beneficios/beneficios-form/beneficios-form.component';
 import { CentralComponent } from './central/central.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { PesquisaComponent } from './pesquisa/pesquisa.component';
+import { NovaSenhaComponent } from './esqueci_senha/nova-senha/nova-senha.component';
+import { CodigoComponent } from './esqueci_senha/codigo/codigo.component';
+import { AlteradaComponent } from './esqueci_senha/alterada/alterada.component';
+import { SenhaComponent } from './esqueci_senha/senha/senha.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +40,13 @@ import { CentralComponent } from './central/central.component';
     BeneficiosListComponent,
     BeneficiosFormComponent,
     CentralComponent,
+    SobreComponent,
+    PesquisaComponent,
+    NovaSenhaComponent,
+    CodigoComponent,
+    AlteradaComponent,
+    SenhaComponent,
+    CadastroComponent,
   ],
   imports: [
     BrowserModule,
