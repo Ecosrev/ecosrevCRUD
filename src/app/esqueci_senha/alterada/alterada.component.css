@@ -6,16 +6,21 @@
 /* Cor de fundo padrão do site*/
 body{
     background: #FFFFFF;
+    display: flex;
+  align-items: center;
  }
 
 /* Definindo o tamanho do texto */
 #texto{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 100px;
     font-size: 40px;
+    line-height: 1.5;
 }
+
 
 /* Definindo a disposição do logo */
 #footer{

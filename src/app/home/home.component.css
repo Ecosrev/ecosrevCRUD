@@ -43,7 +43,7 @@ ul{
 }
 
 /* Tornando a div do Menu responsiva e ajustando as posições de cada item */
-#divMenu{
+#divMenu {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -52,6 +52,7 @@ ul{
     margin-right: 15px;
     margin-top: 30px;
     font-size: 20px;
+    flex-wrap: nowrap;
 }
 
 #divContent{
@@ -75,14 +76,14 @@ ul{
     letter-spacing: 0em;
     text-align: center;
     padding-top: 90px;
-    
+
     font-family: Josefin Sans;
     font-size: 55px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0em;
     text-align: center;
-    
+
     font-family: Josefin Sans;
     font-size: 55px;
     font-weight: 500;
@@ -214,3 +215,75 @@ svg{
     .foo{
         margin-left: 10px;
     }
+
+/* Consulta de mídia para telas menores */
+@media screen and (max-width: 768px) {
+  /* Ajuste do tamanho da imagem do logo para telas menores */
+  img {
+    width: 120px;
+  }
+
+  /* Ajustando a largura e margens do menu para telas menores */
+  #divMenu {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  /* Ajuste do parágrafo principal para telas menores */
+  #p1 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 50px;
+  }
+
+  /* Ajuste do segundo parágrafo para telas menores */
+  #p2 {
+    width: 90%;
+    font-size: 120%;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Ajustando a posição do input da barra de pesquisa para telas menores */
+  #barra {
+    width: 80%;
+    margin-bottom: 80px;
+  }
+
+  /* Ajustando o tamanho do botão "Buscar" para telas menores */
+  #btnBuscar {
+    width: 80px;
+    font-size: 12px;
+    height: 30px;
+  }
+
+  /* Ajustes no rodapé para telas menores */
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  footer div {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #icons {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .foo {
+    margin-left: 0;
+  }
+}
+

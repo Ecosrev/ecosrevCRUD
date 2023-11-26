@@ -23,6 +23,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 20px;
+    line-height: 1.5;
     }
 
 #pesquisa_btn{
@@ -102,4 +103,50 @@ ul{
     margin-right: 15px;
     margin-top: 30px;
     font-size: 20px;
+}
+
+/* CSS telas menores */
+@media screen and (max-width: 768px) {
+  /* Ajuste do tamanho da fonte para telas menores */
+  #resultado_frase {
+    font-size: 28px;
+  }
+
+  #pesquisa_btn {
+    width: 80px;
+    font-size: 12px;
+  }
+
+  #divMenu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  /* Ajuste no rodapé */
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  footer div {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #icons {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .foo {
+    margin-left: 0;
+  }
 }

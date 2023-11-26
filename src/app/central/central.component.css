@@ -49,7 +49,7 @@ html, body {
     font-weight: bold;
     font-size: 18px;
     margin-left: 10px;
-    
+
 }
 
 .loggout:hover{
@@ -142,7 +142,7 @@ justify-content: center;
 /* FORMATANDO A DIV ESQUERDA */
     #DivLeft{
     position: absolute;
-}    
+}
     /* FORMATANDO A IMAGEM DO LOGO */
     #ImgLogo{
         width: 150px;
@@ -150,7 +150,7 @@ justify-content: center;
 }
 /* FORMATANDO A DIV DIREITA */
     #DivRight{
-        display: flex; 
+        display: flex;
         justify-content: flex-end;
         position: relative;
         align-items: center;
@@ -208,23 +208,23 @@ justify-content: center;
         margin: right auto ;
         overflow: hidden;
     }
-    
+
     .nav {
         width: 200px;
         background-color:rgba(211, 227, 129, 0.77);
         color: #fff;
         padding: 10px;
     }
-    
+
     .nav ul {
         list-style: none;
         padding: 0;
     }
-    
+
     .nav li {
         padding: 10px;
     }
-    
+
     .nav a {
         text-decoration: none;
         color: #000000;
@@ -233,16 +233,16 @@ justify-content: center;
         transition: background-color 0.3s;
         font-weight: bold;
     }
-    
+
     .nav a:hover {
         background-color: #bac973;
     }
-    
+
     .content {
         flex: 1;
         padding: 20px;
     }
-    
+
     .tabs {
         display: flex;
         background-color: #D3E381;
@@ -250,7 +250,7 @@ justify-content: center;
         border-top-right-radius: 5px;
         margin-bottom: 10px;
     }
-    
+
     .tab-link {
         text-decoration: none;
         color: #070707;
@@ -260,20 +260,20 @@ justify-content: center;
         padding: 10px;
         transition: background-color 0.3s;
     }
-    
+
     .tab-link:hover {
         background-color: #bac973;
     }
-    
+
     .tab {
         display: none;
     }
-    
+
     h2 {
         color: #333;
         font-weight: bold;
     }
-    
+
 form {
     display: flex;
     flex-direction: column;
@@ -296,7 +296,7 @@ input[type='number'] {
 
 form button{
     align-self: center;
-    
+
 }
 .btn{
     box-shadow: 0px 2px rgb(139, 165, 58);
@@ -353,7 +353,7 @@ form button{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 
@@ -370,3 +370,4 @@ form button{
     display: flex;
     justify-content: center;
 }
+

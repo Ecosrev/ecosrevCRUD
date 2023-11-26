@@ -33,7 +33,7 @@ p{
 /* Definindo a disposição do logo */
 #footer{
     display: flex;
-    
+
 }
 
 /* Disposição da div do botão "Criar" */
@@ -46,6 +46,7 @@ p{
 input{
     margin-bottom: 10px;
     height: 50px;
+    width: 100%;
 }
 
 /* Disposição da div da alteração de senha */
