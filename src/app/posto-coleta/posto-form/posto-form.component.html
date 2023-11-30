@@ -64,9 +64,9 @@
             <label for="estado">Estado:</label>
             <input type="text" id="estado" name="estado" #estado="ngModel" required minlength="3" [(ngModel)] = 'posto.estado' required>
         </div>
-        <div class="botao">
-            <button routerLink="/posto" type="submit" (click)="onSubmit()" class="btn btn-success">Cadastrar</button>
-        <button class="btn" routerLink="/posto" >Cancelar</button>
+        <div class="btnPosition">
+            <button routerLink="/posto" type="submit" (click)="onSubmit()" class="btnNovo">Cadastrar</button>
+            <button class="btnNovo" routerLink="/posto" >Cancelar</button>
         </div>
     </form>
 </div>
